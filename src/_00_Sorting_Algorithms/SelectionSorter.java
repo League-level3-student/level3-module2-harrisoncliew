@@ -28,6 +28,7 @@ public class SelectionSorter extends Sorter {
 				}
 			//5. swap the array element at index with the array element at i
 				array[index] = array[i];
+				display.updateDisplay();
 			}
 			
 		}
